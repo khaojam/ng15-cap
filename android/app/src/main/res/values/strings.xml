@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ng15-cap</string>
+    <string name="title_activity_main">ng15-cap</string>
+    <string name="package_name">com.example.ng15cap</string>
+    <string name="custom_url_scheme">com.example.ng15cap</string>
+</resources>

@@ -80,6 +80,12 @@
     background-color: white;
     width: 100%;
     min-height: 500px;
+    border: red dotted 1px;
+    margin: 5px 0px 20px 0px;
+  }
+
+  .title {
+    font-size: 20px;
   }
 
   svg.material-icons {
@@ -334,10 +340,11 @@
 
 <div class="content" role="main">
 
+  <p class="title">iFrame</p>
   <iframe class="frame" [src]="frameSrc" frameborder="0"></iframe>
   
   <div style="width: 100%; border-top: #24292e; border-width: 1px; border-style: solid;"></div>
-
+  <p class="title">Non iFrame</p>
   <div style="padding: 40px 20px">
     <a href="https://testing.api.connectsolutions.ch/html/c3/c38c397c-ec90-414c-8cef-1f82092ced91/pdf/Liste des protéines végétales pour 10g de protéines.pdf" download>Download</a>
   </div>

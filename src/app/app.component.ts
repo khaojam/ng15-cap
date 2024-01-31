@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   constructor(private sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
-    this.frameSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://testing.api.connectsolutions.ch/html/d8/d833a4ea-0298-4eb9-aac0-7842cb507249/index.html');
+    this.frameSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://dev.api.connectsolutions.ch/html/e3/e3507f37-dc73-46bd-95f8-daa11273c134/index.html');
   }
 }
